@@ -1,0 +1,29 @@
+/*Author: Marc Clayton Smith*/
+
+/*Change the background color of website.*/
+body{
+    background-color: black;
+}
+
+/*Center and change the color of the h1 and h2 tags*/
+h1, h3 {
+    text-align: center;
+    color: white;
+}
+
+/*Change this tag to have italic text*/
+#italics {
+    font-style: italic;
+}
+
+/*Center the button*/
+.buttoncenter {
+        display: block;
+        margin: 0 auto;
+}
+
+/*Center the textbox*/
+.questioncenter {
+        display: block;
+        margin: 0 auto;
+}
