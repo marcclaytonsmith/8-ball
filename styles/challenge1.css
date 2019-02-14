@@ -2,7 +2,7 @@
 
 /*Change the background color of website.*/
 body{
-    background-color: black;
+    background-color: rgb(72, 72, 83);
 }
 
 /*Center and change the color of the h1 and h2 tags*/
@@ -11,9 +11,23 @@ h1, h3 {
     color: white;
 }
 
+h1 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.5rem;
+}
+
 /*Change this tag to have italic text*/
 #italics {
     font-style: italic;
+    width: 80%;
+    margin: 0 auto;
+    border: 2px dotted gold;
+}
+
+#Answer {
+    font-size: 1.5em;
 }
 
 /*Center the button*/
@@ -26,4 +40,31 @@ h1, h3 {
 .questioncenter {
         display: block;
         margin: 0 auto;
+}
+
+#txtQuestion {
+    height: 50px;
+    width: 90%;
+    padding-left: 20px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#question{
+    color: white;
+    text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.589), 0px -5px 35px rgba(255, 255, 255, 0.034);
+}
+
+#Answer {
+    color: gold;
+    text-shadow: 3px 2px 6px rgba(152, 150, 150, 1);
+}
+
+#Eightball {
+    width: 80%;
+    background-color: black;
+    margin: 0 auto;
+    border: 2px dotted white;
+    margin-top: 15px;
 }

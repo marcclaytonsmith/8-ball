@@ -20,7 +20,7 @@
                 //If the same question is asked in a row, output an alert. Else, continue.
                 }else if(document.getElementById("txtQuestion").value == lastQuestion){
                         alert("You asked the same question. Please type a new one!")
-                //Output the anser from the Array (stored in the variable arrAnswer).
+                //Output the answer from the Array (stored in the variable arrAnswer).
                 }else{
                         document.getElementById("Answer").innerHTML = arrAnswer[Math.floor(Math.random()*arrAnswer.length)];
                         //Take the question that was asked and store it in the variable lastQuestion. See code line #21.
